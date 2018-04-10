@@ -24,3 +24,9 @@ function make(a) {
 
   return f;
 }
+
+// function add(n) {
+//   var next = add.bind(n += this | 0);
+//   next.valueOf = function() { return n; };
+//   return next;
+// }
